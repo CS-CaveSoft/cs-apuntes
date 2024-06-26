@@ -1,0 +1,29 @@
+git init
+// Iniciar un nuevo proyecto
+
+git remote add origin https://github.com/CS-CaveSoft/cs-ionic-crud-1.git
+// Establecer el origen del repositorio
+
+git clone /path/to/repository
+// Para clonar un repositorio desde la ruta
+
+git clone username@host:/path/to/repository
+// Para clonar un repositorio desde la ruta de un servidor remoto
+
+git status
+// Para ver como están los archivos, sin cargar y todo
+
+git add <filename>
+// Para preparar un archivo específico antes de cargarlo
+
+git add .
+// Para preparar todos los archivos específicos antes de cargarlos
+
+git commit -m "Commit message"
+// Acá se crea el commit con los comentarios de lo que se está incluyendo/cargando
+
+git push
+// Se sube todo lo que está en el add
+
+git remote show origin
+// Para saber en qué repositorio estoy actualmente

@@ -1,0 +1,11 @@
+php artisan make:model Chirp -mrc
+Crea el modelo, -mrc (migración, controlador)
+
+php artisan migrate
+Crea la base de datos desde el codigo en (Migrations)
+
+php artisan migrate:rollback
+Este es el contrario del anterior, al ejecutarlo, se borraria la tabla anterior - revisar antes la tabla migrations (tener en cuenta los lotes, se borra todo el lote)
+
+php artisan migrate:rollback --step=1
+Borra solo la última migracion --step=2 (las últimas 2)... etc
