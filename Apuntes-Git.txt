@@ -25,5 +25,10 @@ git commit -m "Commit message"
 git push
 // Se sube todo lo que está en el add
 
+/******************************************************************/
+
 git remote show origin
 // Para saber en qué repositorio estoy actualmente
+
+git pull origin main
+// Actualizas el repositorio clonado local con el ultimo commit subido
