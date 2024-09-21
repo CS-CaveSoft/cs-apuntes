@@ -9,3 +9,7 @@ Este es el contrario del anterior, al ejecutarlo, se borraria la tabla anterior 
 
 php artisan migrate:rollback --step=1
 Borra solo la última migracion --step=2 (las últimas 2)... etc
+
+
+Al conar en otra máquina:
+https://geoinnova.org/blog-territorio/como-clonar-un-proyecto-de-laravel-desde-github/
